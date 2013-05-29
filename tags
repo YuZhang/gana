@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+Cluster	clustering.cpp	/^Cluster::Cluster(graph& G):g(G), nc(G), cc(0), tt(0)$/;"	f	class:Cluster
+Cluster	clustering.h	/^class Cluster$/;"	c
+Coreness	coreness.cpp	/^Coreness::Coreness(const graph& G): g(G), cn(G,0)$/;"	f	class:Coreness
+Coreness	coreness.h	/^class Coreness {$/;"	c
+Dstat	stat.cpp	/^Dstat::Dstat(const data_t& D) : od(D), cd(org)$/;"	f	class:Dstat
+Dstat	stat.cpp	/^Dstat::Dstat(const graph& G, const nm_t& nm) : od(org), cd(org)$/;"	f	class:Dstat
+Dstat	stat.h	/^class Dstat {$/;"	c
+K1	degree_based.cpp	/^void K_based::K1()$/;"	f	class:K_based
+K2	degree_based.cpp	/^void K_based::K2()$/;"	f	class:K_based
+K_based	degree_based.cpp	/^K_based::K_based(const graph& G):g(G), deg(G,0)$/;"	f	class:K_based
+K_based	degree_based.h	/^class K_based$/;"	c
+Richclub	clustering.cpp	/^Richclub::Richclub(graph & G): g(G)$/;"	f	class:Richclub
+Richclub	clustering.h	/^class Richclub $/;"	c
+Sp_based	sp_based.cpp	/^Sp_based::Sp_based(graph& G) :$/;"	f	class:Sp_based
+Sp_based	sp_based.h	/^class Sp_based {$/;"	c
+_CORENESS_H	coreness.h	2;"	d
+__CLUSTER_H	clustering.h	2;"	d
+__GANA_H	gana.h	2;"	d
+__GANA_UTILS_H	utils.h	2;"	d
+__K_H	degree_based.h	2;"	d
+__SP_BASED_H	sp_based.h	2;"	d
+__STAT_H	stat.h	2;"	d
+ac	degree_based.h	/^    double ac;$/;"	m	class:K_based
+avg	stat.h	/^    double avg;$/;"	m	class:Dstat
+avgd	sp_based.h	/^    nm_t avgd;$/;"	m	class:Sp_based
+block_cutpoints	block-cutpoints.cpp	/^void block_cutpoints(graph & G)$/;"	f
+cc	clustering.h	/^    double cc;$/;"	m	class:Cluster
+cc	stat.h	/^    double cc;$/;"	m	class:Dstat
+ccdf	stat.cpp	/^void Dstat::ccdf()$/;"	f	class:Dstat
+cd	stat.h	/^    data_t& cd;$/;"	m	class:Dstat
+cn	coreness.h	/^    nm_t cn;$/;"	m	class:Coreness
+compare_by_degree	clustering.cpp	/^static bool compare_by_degree(node a, node b)$/;"	f	file:
+compo	sp_based.h	/^    components compo;$/;"	m	class:Sp_based
+convert_measurement_results_to_topo	topo.cpp	/^bool convert_measurement_results_to_topo(graph & G, const char *filename)$/;"	f
+correlation	stat.cpp	/^double Dstat::correlation() const$/;"	f	class:Dstat
+covariance	stat.cpp	/^double Dstat::covariance() const $/;"	f	class:Dstat
+crossing	stat.cpp	/^double Dstat::crossing() const$/;"	f	class:Dstat
+data3_t	utils.h	/^typedef map < pair<double, double>, double >data3_t;$/;"	t
+data_t	utils.h	/^typedef map < double, double >data_t;$/;"	t
+deg	degree_based.h	/^    nm_t deg;$/;"	m	class:K_based
+dr	clustering.h	/^    data_t rr, dr;$/;"	m	class:Richclub
+ebet	sp_based.h	/^    em_t ebet;$/;"	m	class:Sp_based
+em_t	utils.h	/^typedef edge_map< double > em_t;$/;"	t
+entropy	degree_based.h	/^    double entropy;$/;"	m	class:K_based
+f	stat.h	/^    data_t f;$/;"	m	class:Dstat
+filter	stat.cpp	/^void Dstat::filter(double st, double ed, char ax, bool is_ccdf)$/;"	f	class:Dstat
+find_biggest_component	topo.cpp	/^void find_biggest_component(graph & G, graph & B)$/;"	f
+freq	stat.cpp	/^void Dstat::freq(char axis)$/;"	f	class:Dstat
+g	clustering.h	/^    graph& g;$/;"	m	class:Cluster
+g	clustering.h	/^    graph& g;$/;"	m	class:Richclub
+g	coreness.h	/^    const graph& g;$/;"	m	class:Coreness
+g	degree_based.h	/^    const graph& g;$/;"	m	class:K_based
+g	sp_based.h	/^    graph& g;$/;"	m	class:Sp_based
+get	coreness.cpp	/^const nm_t& Coreness::get() const$/;"	f	class:Coreness
+isadd_v	topo.cpp	/^static vector < edge > isadd_v;$/;"	v	file:
+jdd	degree_based.h	/^    data3_t jdd;$/;"	m	class:K_based
+knn	degree_based.h	/^    data_t knn;$/;"	m	class:K_based
+least_square	stat.cpp	/^void Dstat::least_square()$/;"	f	class:Dstat
+linefit	stat.cpp	/^void Dstat::linefit(double st, double ed, char axis, bool is_ccdf)$/;"	f	class:Dstat
+load_measurement_results	topo.cpp	/^static bool load_measurement_results(graph & G, const char *filename)$/;"	f	file:
+loadtopo	topo.cpp	/^bool loadtopo(graph & G, const char *filename)$/;"	f
+logs	stat.cpp	/^void Dstat::logs(char axis)$/;"	f	class:Dstat
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+make_connected	topo.cpp	/^static void make_connected(graph & G)$/;"	f	file:
+maxd	sp_based.h	/^    nm_t maxd;$/;"	m	class:Sp_based
+mean	stat.cpp	/^double Dstat::mean(char axis) const$/;"	f	class:Dstat
+nbet	sp_based.h	/^    nm_t nbet;$/;"	m	class:Sp_based
+nc	clustering.h	/^    nm_t nc;$/;"	m	class:Cluster
+nm_t	utils.h	/^typedef node_map< double > nm_t;$/;"	t
+nr_links_among_nodes	clustering.cpp	/^template < class NIT > int nr_links_among_nodes(NIT begin, NIT end)$/;"	f
+nr_links_with_node	clustering.cpp	/^template < class NIT > int nr_links_with_node(NIT begin, NIT end, node n)$/;"	f
+od	stat.h	/^    const data_t& od;$/;"	m	class:Dstat
+on_compo	sp_based.h	/^    node_map < components::component_iterator >on_compo;$/;"	m	class:Sp_based
+operator <<	clustering.cpp	/^ostream& operator << (ostream& os, const Richclub& rc)$/;"	f
+operator <<	clustering.cpp	/^ostream& operator<<(ostream& os, const Cluster& ct)$/;"	f
+operator <<	coreness.cpp	/^ostream& operator<<(ostream& os, const Coreness& cn)$/;"	f
+operator <<	degree_based.cpp	/^ostream& operator<<(ostream& os, const K_based& kb)$/;"	f
+operator <<	sp_based.cpp	/^ostream& operator<<(ostream& os, const Sp_based& spb)$/;"	f
+org	stat.h	/^    data_t org;$/;"	m	class:Dstat
+pairs	sp_based.h	/^    data_t pairs;$/;"	m	class:Sp_based
+pk	degree_based.h	/^    data_t pk;$/;"	m	class:K_based
+print	stat.cpp	/^void Dstat::print() const$/;"	f	class:Dstat
+print_edge_map	main.cpp	/^template < class T > void print_edge_map(graph & G, edge_map < T > &em)$/;"	f
+print_node_map	main.cpp	/^template < class T > void print_node_map(graph & G, const node_map < T >& nm)$/;"	f
+r_ccdf	stat.h	/^    data_t r_ccdf;$/;"	m	class:Dstat
+r_logs	stat.h	/^    data_t r_logs;$/;"	m	class:Dstat
+rr	clustering.h	/^    data_t rr, dr;$/;"	m	class:Richclub
+savetopo	topo.cpp	/^bool savetopo(graph & G, const char *filename)$/;"	f
+shrink	sp_based.cpp	/^void Sp_based::shrink()$/;"	f	class:Sp_based
+slope	stat.cpp	/^double Dstat::slope() const$/;"	f	class:Dstat
+sp	stat.h	/^    double sp;$/;"	m	class:Dstat
+squares_mean	stat.cpp	/^double Dstat::squares_mean(char axis) const$/;"	f	class:Dstat
+stdv	stat.h	/^    double stdv;$/;"	m	class:Dstat
+tt	clustering.h	/^    double tt;$/;"	m	class:Cluster
+usage	main.cpp	/^void usage(const string & additional)$/;"	f
+variance	stat.cpp	/^double Dstat::variance(char axis) const$/;"	f	class:Dstat
